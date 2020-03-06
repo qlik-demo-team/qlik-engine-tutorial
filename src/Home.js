@@ -9,7 +9,7 @@ const config = {
   host: '', // Qlik Server Domain
   secure: true,
   port: 443,
-  prefix: 'windows',
+  prefix: '',
   appId: '', // ==> App ID
 };
 const url = SenseUtilities.buildUrl(config);
