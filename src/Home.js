@@ -5,11 +5,11 @@ const SenseUtilities = require('enigma.js/sense-utilities');
 import hypercube from './hypercube';
 
 const config = {
-  host: 'sense-demo-staging.qlik.com',
+  host: '',
   secure: true,
   port: 443,
   prefix: 'windows',
-  appId: '52b96c54-ca5c-4ec6-a10d-39992c733959', // ==> Consumer Sales
+  appId: '', // ==> Consumer Sales
 };
 const url = SenseUtilities.buildUrl(config);
 const qDocPromise = enigma.create({ schema, url }).open().then(global => global.openDoc(config.appId));
@@ -22,7 +22,6 @@ qDocPromise.then((doc) => {
     const dataPages = layout.qHyperCube.qDataPages[0].qMatrix
     console.log(dataPages)
   }))
-  
 })
 
 const Home = () => {
