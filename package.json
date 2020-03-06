@@ -1,0 +1,29 @@
+{
+  "name": "qlik-engine-tutorial",
+  "version": "1.0.0",
+  "description": "Qlik Engine JSON API tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --watch"
+  },
+  "keywords": [
+    "qlik-demo-team"
+  ],
+  "author": "Qlik",
+  "license": "ISC",
+  "dependencies": {
+    "enigma.js": "^2.6.3",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
