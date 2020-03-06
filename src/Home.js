@@ -1,6 +1,6 @@
 import React from 'react';
 const enigma = require('enigma.js');
-const schema = require('enigma.js/schemas/12.20.0.json');
+const schema = require('enigma.js/schemas/12.170.2.json');
 const SenseUtilities = require('enigma.js/sense-utilities');
 
 const config = {
