@@ -7,7 +7,7 @@ const config = {
   host: '',
   secure: true,
   port: 443,
-  prefix: 'windows',
+  prefix: '',
   appId: '', // ==> Consumer Sales
 };
 const url = SenseUtilities.buildUrl(config);
